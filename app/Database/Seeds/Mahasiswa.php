@@ -14,24 +14,7 @@ class Mahasiswa extends Seeder
                 'npm' => '2017051022',
                 'nama'    => 'Satria Sapta Nugraha',
                 'alamat' => 'Kota Metro',
-                'created_at' => Time::now(),
-            ],
-            [
-                'npm' => '2017051037',
-                'nama'    => 'Ahmad Muzakki',
-                'alamat' => 'Natar',
-                'created_at' => Time::now(),
-            ],
-            [
-                'npm' => '2017051020',
-                'nama'    => 'Nur Setiowati',
-                'alamat' => 'Tanggamus',
-                'created_at' => Time::now(),
-            ],
-            [
-                'npm' => '2017051014',
-                'nama'    => 'Saddam Surya',
-                'alamat' => 'Sukarame',
+                'desripsi' => 'Rajin',
                 'created_at' => Time::now(),
             ]
         ];
