@@ -42,7 +42,11 @@ $routes->post('/store', 'MahasiswaController::store');
 $routes->delete('/delete/(:num)', 'MahasiswaController::delete/$1');
 $routes->post('/update/(:num)', 'MahasiswaController::update/$1');
 $routes->get('/edit/(:num)', 'MahasiswaController::edit/$1');
+<<<<<<< HEAD
 $routes->get('/index', 'Pages::index'); 
+=======
+$routes->get('/index', 'Pages::index');
+>>>>>>> 282e41e5626ed48a71f9660e870f464113a67a48
 $routes->get('(:any)', 'Pages::view/$1');
 /*
  * --------------------------------------------------------------------

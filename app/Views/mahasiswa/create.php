@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 <?= $this->extend('templates/template'); ?>
 <?= $this->section('content'); ?>
 <div class="row">
     <div class="col-6">
         <form action="/store" method="POST">
+=======
+<div class="p-4">
+
+
+
+<form action="/store" method="POST">
+>>>>>>> 282e41e5626ed48a71f9660e870f464113a67a48
 
             <div class="form-group">
                 <label for="npm">NPM</label>
@@ -23,8 +31,22 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+<<<<<<< HEAD
 </div>
 
 
 
 <?= $this->endSection(); ?>
+=======
+    <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" class="form-control" id="nama">
+    </div>
+    <div class="form-group">
+        <label for="alamat">Alamat</label>
+        <input type="text" name="alamat" class="form-control" id="alamat">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+>>>>>>> 282e41e5626ed48a71f9660e870f464113a67a48
